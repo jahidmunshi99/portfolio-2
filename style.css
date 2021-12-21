@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin-bottom: 5%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-right: 0px;
+    padding: 2% 5%;    
+}
+
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 35px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: tomato;
+    margin: 0px auto;
+    display: block;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.nav-links ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: coral;
+}
+
+
+.row{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 40%;
+}
+
+.col h1{
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+.text-heighlight{
+    color:orange;
+}
+
+.col h2{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.col h3{
+    margin: 2% 0%;
+    font-size: 16px;
+}
+
+.hero-btn{
+    padding: 10px 35px;
+    background:linear-gradient(45deg, coral, tomato);
+    display: inline-block;
+    margin: 20px 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.col img{
+    width: 100%;
+}
+
+/* -------------- dream ----------- */
+.dream{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* ----------------- experience ------------ */
+
+.experience{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+
+.experience h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, coral, tomato);
+    border-image-slice: 1;
+}
+
+#learner{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(1, 18, 255), rgb(8, 156, 255));
+    border-image-slice: 1;
+}
+
+.single-experience h2{
+    text-align: left;
+    font-size: 20px;
+    margin:0;
+    padding: 0;
+}
+
+
+/* ------------  footer ----------- */
+footer{
+    text-align: center;
+    background: black;
+    margin: 0px auto;
+    color: coral;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
