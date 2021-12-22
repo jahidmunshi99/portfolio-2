@@ -133,7 +133,7 @@ section{
 
 #learner{
     border-left: 10px solid;
-    border-image: linear-gradient(180deg, rgb(1, 18, 255), rgb(8, 156, 255));
+    border-image: linear-gradient(155deg, rgb(230, 255, 1), rgb(0, 255, 221));
     border-image-slice: 1;
 }
 
